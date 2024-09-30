@@ -1,0 +1,9 @@
+a {
+    pointer-events: none;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif; /* Apply the font to the body */
+}

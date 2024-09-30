@@ -1,0 +1,61 @@
+
+.footer {
+    background-color: #012840; /* Dark blue color */
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .icon:hover {
+    color: #f0f0f0; /* Slight hover effect */
+  }
+  
+  .copyright {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .copyright a {
+    color: #2d98da; /* Bright blue for the link */
+    text-decoration: none;
+  }
+  
+  .copyright a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 20px;
+      margin: 0 8px;
+    }
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .icon {
+      font-size: 18px;
+      margin: 0 6px;
+    }
+    .copyright {
+      font-size: 10px;
+    }
+  }
+  

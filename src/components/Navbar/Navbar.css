@@ -1,0 +1,70 @@
+
+
+/* Navbar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Logo section */
+.logo {
+    display: flex;
+    align-items: center;
+    width: 275px;
+    height: 61px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-right: 40px; /* Space between features */
+}
+
+.checkmark {
+    color: #0073e6;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.feature p {
+    font-size: 15px;
+    margin: 0;
+}
+
+
+
+/* Book now button */
+.book-now .book-btn {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #002147;
+    font-weight: bold;
+}
+
+.book-now .book-btn:hover {
+    background-color: #005bb5;
+}

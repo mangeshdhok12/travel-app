@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #00334e;
+  padding: 10px;
+  width: 1110px;
+  height: 55px;
+  margin-left: 76px;
+  margin-right: 76px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 1267px;
+  padding-right : 100px;
+  margin-left: 0px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.search-icon {
+  margin-left: auto;
+}
+
+.search-icon a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar-item.active a {
+  background-color: #1e73be; 
+ 
+  color: white; 
+}

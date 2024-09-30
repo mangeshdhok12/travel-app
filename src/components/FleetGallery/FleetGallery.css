@@ -1,0 +1,40 @@
+.fleet-gallery {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .fleet-gallery h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .fleet-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Each row will have 3 columns */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .fleet-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .fleet-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .fleet-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .fleet-item img:hover {
+    transform: scale(1.05);
+  }
+  
